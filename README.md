@@ -23,3 +23,11 @@ How to set up this game:
 
 11) Added an eventListener on the resetButton.
     OnClick, the p1 and p2Scores return to 0, the p1 and p2Display.textContent return to 0, and made gameOver = false; so that way we can continue to play after the reset button is clicked.
+
+12) Created 2 new vars, numInput and winningScoreDisplay.
+    numInput consist of the actual "input value" that the user can manipulate.
+
+    winningScoreDisplay consist of the textContent that will be "displayed" when the usere "changes" the winning Score".  Instead of using an # we were able to simply use "p span" since there was only 1 paragraph with a span in it.
+
+13) Created a reset(); that consisted of all of the code from our resetButton.  
+    Placed this new reset function inside of the resetButton and the numInput so that way we could DRY up our code and make sure that the game will continue to reset when the value is changed.
