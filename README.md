@@ -18,3 +18,8 @@ How to set up this game:
 
 9) Added the css file in addition to a link tag in the head to connect the css stylesheet to the html file.
     Created a class called .winner that has the color green.
+
+10) Included .classList.add("winner"); to both the p1Score === winningScore and p2Score === winningScore so that the color of the text will change once that player has reached the specified number.
+
+11) Added an eventListener on the resetButton.
+    OnClick, the p1 and p2Scores return to 0, the p1 and p2Display.textContent return to 0, and made gameOver = false; so that way we can continue to play after the reset button is clicked.
