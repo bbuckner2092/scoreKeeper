@@ -15,3 +15,6 @@ How to set up this game:
 8) Added a var gameOver that keeps track of our game state. Once we have reached our specified number then neither player should be able to update their score.
     We set the gameOver var to false because at the very start of the game gameOver is NOT true!
     We included an if statement in order to change the "states" of the game. Simply put, if !gameOver then we simply add 1 to the player score.  If the pScore === winningScore then the player is UNABLE to update his score any further, and gameOver = true;
+
+9) Added the css file in addition to a link tag in the head to connect the css stylesheet to the html file.
+    Created a class called .winner that has the color green.
